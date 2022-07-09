@@ -1,2 +1,1 @@
-# DAssistant
-This is the DAssistant. 
+This is D Assistant.
