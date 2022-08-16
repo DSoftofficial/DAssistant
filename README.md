@@ -1,1 +1,1 @@
-This is the D Assistant.
+This is D Assistant.
