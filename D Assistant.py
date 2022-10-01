@@ -1,8 +1,8 @@
 # from ast import main
-from ast import Try
+# from ast import Try
 import os
 import pyttsx3
-import cv2
+# import cv2
 # import playsound from playsound
 import wikipedia
 import webbrowser
@@ -12,12 +12,12 @@ import datetime
 import speech_recognition as sr
 import pyaudio
 from tkinter import *
-import django
+# import django
 import random
 import pyautogui
-import speedtest
-import requests
-import json
+# import speedtest
+# import requests
+# import json
 
 
 # GUI
@@ -44,7 +44,8 @@ import json
 # gui_root.configure(bg="#1a1a1a")
 # # guimain
 # gui_main_message = Label()
-# gui_root.mainloop()
+
+
 
 
 # engines attach
@@ -90,7 +91,6 @@ def howareyou():
 # speak
 def help():
      speak("I am D. How may I help you")
-     # help = input("I am D. How may I help you," + name + ':\n')
 
 # takeCommand() function
 def takeCommand():
@@ -185,25 +185,25 @@ if __name__ == "__main__":
                vscodedir2 = "C://Users//DHRUBAJYOTI//AppData//Roaming//Microsoft//Windows//Start Menu//Programs//Visual Studio Code//Visual Studio Code.lnk"
                os.startfile(vscodedir2)
                speak("Opened VS Code")
+          # will created in v2.0.0
+          # elif "open Word" in query:
+          #      pyautogui.press("super")
 
-          elif "open Word" in query:
-               pyautogui.press("super")
-
-               # pyautogui.typewrite("winword")
-               # pyautogui.sleep(2)
-               # pyautogui.press("enter")
+          #      # pyautogui.typewrite("winword")
+          #      # pyautogui.sleep(2)
+          #      # pyautogui.press("enter")
                
-          elif "open MS Excel" in query:
-               MS_Exceldir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Excel.lnk"
-               os.startfile(MS_Exceldir)
+          # elif "open MS Excel" in query:
+          #      MS_Exceldir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Excel.lnk"
+          #      os.startfile(MS_Exceldir)
 
-          elif "open MS Powerpoint" in query:
-               MS_Powerpointdir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Powerpoint.lnk"
-               os.startfile(MS_Powerpointdir)
+          # elif "open MS Powerpoint" in query:
+          #      MS_Powerpointdir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Powerpoint.lnk"
+          #      os.startfile(MS_Powerpointdir)
 
-          elif "open MS Access" in query:
-               MS_Accessdir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Access.lnk"
-               os.startfile(MS_Accessdir)
+          # elif "open MS Access" in query:
+          #      MS_Accessdir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Access.lnk"
+          #      os.startfile(MS_Accessdir)
 
           elif "open C drive" in query:
                C_folder_dir = "C:\\"
@@ -334,7 +334,7 @@ if __name__ == "__main__":
                print("Shutting down your PC after next 6 seconds")
                os.system('shutdown /s /t 6')
           
-          # will be opened in version 1.1.0
+          # will be opened in version 2.0
           # {
           # elif in query == "restart pc":
           #      choice = input("Do you want to restart your PC(Y/N)")
@@ -434,6 +434,24 @@ if __name__ == "__main__":
                speak("SMILE")
                pyautogui.press("enter")
 
+          elif "version" in query:
+               gui_help = Tk()
+               gui_help.geometry("220x220")
+               gui_help.maxsize(220,220)
+               gui_help.minsize(220,220)
+               head_label = Label(text = "D Assistant")
+               gui_help.iconbitmap("K:\\D Assistant\\D Assistant.ico")
+               gui_help.title("Version of D Assistant")
+               gui_help.mainloop()
+               takeCommand()
+          # elif "" in query:
+               
+          # elif "" in query:
+
+          # elif "" in query:
+               
+          # elif "" in query:
+               
           # elif "" in query:
                
           # elif "" in query:
@@ -449,26 +467,10 @@ if __name__ == "__main__":
           # elif "" in query:
                
           # elif "" in query:
-
-          # elif "" in query:
-               
-          # elif "" in query:
-               
-          # elif "" in query:
-               
-          # elif "" in query:
-               
-          # elif "" in query:
-
-
-
-
-
-
-
-
 
           elif "sleep" in query:
                speak("Thankyou, for using me. Bye. We will meet next time!")
                print("Thankyou, for using me. Bye🖐️. We will meet next time!")
                exit()
+               
+# gui_root.mainloop()
