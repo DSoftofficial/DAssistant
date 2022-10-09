@@ -7,3 +7,4 @@ https://github.com/DSoftofficial/DAssistant
 
 Created with 💕 in 🇮🇳dia
 
+You can download this software by using this link: https://sourceforge.net/projects/dassistant/
