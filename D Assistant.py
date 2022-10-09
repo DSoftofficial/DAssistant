@@ -84,7 +84,7 @@ def howareyou():
      if how_are_you == "I am fine":
           speak("Good to hear!")
           print("Good to hear!")
-     elif how_are_you == "I am not fine":
+     else:
           speak("Take some medicine or else go to doctor")
           print("Take some medicine or else go to doctor")
 
@@ -167,6 +167,7 @@ if __name__ == "__main__":
                speak("Opening Micrsoft Outlook")
                speak("Opened Micrsoft Outlook")
 
+          # query to play music
           elif "play music" in query:
                # music_run = 1
                music_dir = input("Enter music directory folder:\n")
@@ -181,7 +182,61 @@ if __name__ == "__main__":
           #      os.close(os.path.join(music_dir, songs[music_num]))
           #      speak("Stopped music")
 
+          # query to open Registry Editor
+          elif "open Registry Editor" in query:
+               os.startfile("C:\\Windows\\regedit.exe")
+               print("Opened Registry Editor")
+               speak("Opened Registry Editor")
+          elif "open registry editor" in query:
+               os.startfile("C:\\Windows\\regedit.exe")
+               print("Opened Registry Editor")
+               speak("Opened Registry Editor")
+          elif "open Registry editor" in query:
+               os.startfile("C:\\Windows\\regedit.exe")
+               print("Opened Registry Editor")
+               speak("Opened Registry Editor")
+          # query to open Magnifier
+          elif "open Magnifier" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Magnify.lnk")
+               print("Opened Magnifier")
+               speak("Opened Magnifier")
+          elif "open magnifier" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Magnify.lnk")
+               print("Opened Magnifier")
+               speak("Opened Magnifier")
+
+          elif "open narrator" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk")
+               print("Opened narrator")
+               speak("Opened narrator")
+          # query to open On-Screen-Keyboard
+          elif "open on screen keyboard" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk")
+               print("Opened On-Screen-Keyboard")
+               speak("Opened On-Screen-Keyboard")
+          elif "open On screen keyboard" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk")
+               print("Opened On-Screen-Keyboard")
+               speak("Opened On-Screen-Keyboard")
+          elif "open On Screen Keyboard" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk")
+               print("Opened On-Screen-Keyboard")
+               speak("Opened On-Screen-Keyboard")
+          elif "open onscreenkeyboard" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk")
+               print("Opened On-Screen-Keyboard")
+               speak("Opened On-Screen-Keyboard")
+          elif "open On-Screen-Keyboard" in query:
+               os.startfile("C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessibility\\Narrator.lnk")
+               print("Opened On-Screen-Keyboard")
+               speak("Opened On-Screen-Keyboard")
+
+          # query to open VS Code
           elif "open vs code" in query:
+               vscodedir2 = "C://Users//DHRUBAJYOTI//AppData//Roaming//Microsoft//Windows//Start Menu//Programs//Visual Studio Code//Visual Studio Code.lnk"
+               os.startfile(vscodedir2)
+               speak("Opened VS Code")
+          elif "open VS code" in query:
                vscodedir2 = "C://Users//DHRUBAJYOTI//AppData//Roaming//Microsoft//Windows//Start Menu//Programs//Visual Studio Code//Visual Studio Code.lnk"
                os.startfile(vscodedir2)
                speak("Opened VS Code")
@@ -205,126 +260,127 @@ if __name__ == "__main__":
           #      MS_Accessdir = "C:\\Users\\DHRUBAJYOTI\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Access.lnk"
           #      os.startfile(MS_Accessdir)
 
-          elif "open C drive" in query:
+# bug <!--
+          elif "Open C Drive" in query:
                C_folder_dir = "C:\\"
                os.startfile(C_folder_dir)
-               speak("C drive opened")
+               speak("C Drive opened")
 
           elif "open D drive" in query:
                D_folder_dir = "D:\\"
                os.startfile(D_folder_dir)
-               speak("D drive opened")
+               speak("D Drive opened")
 
-          elif "open E drive" in query:
+          elif "Open E Drive" in query:
                E_folder_dir = "E:\\"
                os.startfile(E_folder_dir)
-               speak("E drive opened")
+               speak("E Drive opened")
 
-          elif "open F drive" in query:
+          elif "Open F Drive" in query:
                F_folder_dir = "F:\\"
                os.startfile(F_folder_dir)
-               speak("F drive opened")
+               speak("F Drive opened")
 
-          elif "open G drive" in query:
+          elif "Open G Drive" in query:
                G_folder_dir = "G:\\"
                os.startfile(G_folder_dir)
-               speak("G drive opened")
+               speak("G Drive opened")
 
-          elif "open H drive" in query:
+          elif "Open H Drive" in query:
                H_folder_dir = "I:\\"
                os.startfile(H_folder_dir)
-               speak("H drive opened")
+               speak("H Drive opened")
 
-          elif "open I drive" in query:
+          elif "Open I Drive" in query:
                I_folder_dir = "I:\\"
                os.startfile(I_folder_dir)
-               speak("I drive opened")
+               speak("I Drive opened")
 
-          elif "open J drive" in query:
+          elif "Open J Drive" in query:
                J_folder_dir = "J:\\"
                os.startfile(J_folder_dir)
-               speak("J drive opened")
+               speak("J Drive opened")
 
-          elif "open K drive" in query:
+          elif "Open K Drive" in query:
                K_folder_dir = "K:\\"
                os.startfile(K_folder_dir)
-               speak("K drive opened")
+               speak("K Drive opened")
 
-          elif "open L drive" in query:
+          elif "Open L Drive" in query:
                L_folder_dir = "L:\\"
                os.startfile(L_folder_dir)
-               speak("L drive opened")
+               speak("L Drive opened")
 
-          elif "open M drive" in query:
+          elif "Open M Drive" in query:
                M_folder_dir = "M:\\"
                os.startfile(M_folder_dir)
-               speak("M drive opened")
+               speak("M Drive opened")
 
-          elif "open N drive" in query:
+          elif "Open N Drive" in query:
                N_folder_dir = "N:\\"
                os.startfile(N_folder_dir)
-               speak("N drive opened")
+               speak("N Drive opened")
 
-          elif "open O drive" in query :
+          elif "Open O Drive" in query :
                O_folder_dir = "O:\\"
                os.startfile(O_folder_dir)
-               speak("O drive opened")
+               speak("O Drive opened")
 
-          elif "open P drive" in query:
+          elif "Open P Drive" in query:
                P_folder_dir = "P:\\"
                os.startfile(P_folder_dir)
-               speak("P drive opened")
+               speak("P Drive opened")
 
-          elif "open Q drive" in query:
+          elif "Open Q Drive" in query:
                Q_folder_dir = "Q:\\"
                os.startfile(Q_folder_dir)
-               speak("Q drive opened")
+               speak("Q Drive opened")
 
-          elif "open R drive" in query:
+          elif "Open R Drive" in query:
                R_folder_dir = "R:\\"
                os.startfile(R_folder_dir)
-               speak("R drive opened")
+               speak("R Drive opened")
 
-          elif "open S drive" in query:
+          elif "Open S Drive" in query:
                S_folder_dir = "S:\\"
                os.startfile(S_folder_dir)
-               speak("S drive opened")
+               speak("S Drive opened")
 
-          elif "open T drive" in query:
+          elif "Open T Drive" in query:
                T_folder_dir = "T:\\"
                os.startfile(T_folder_dir)
-               speak("T drive opened")
+               speak("T Drive opened")
 
-          elif "open U drive" in query:
+          elif "Open U Drive" in query:
                U_folder_dir = "U:\\"
                os.startfile(U_folder_dir)
-               speak("U drive opened")
+               speak("U Drive opened")
 
-          elif "open V drive" in query:
+          elif "Open V Drive" in query:
                V_folder_dir = "V:\\"
                os.startfile(V_folder_dir)
-               speak("V drive opened")
+               speak("V Drive opened")
 
-          elif "open W drive" in query:
+          elif "Open W Drive" in query:
                W_folder_dir = "W:\\"
                os.startfile(W_folder_dir)
-               speak("W drive opened")
+               speak("W Drive opened")
 
-          elif "open X drive" in query:
+          elif "Open X Drive" in query:
                X_folder_dir = "X:\\"
                os.startfile(X_folder_dir)
-               speak("X drive opened")
+               speak("X Drive opened")
 
-          elif "open Y drive" in query:
+          elif "Open Y Drive" in query:
                Y_folder_dir = "Y:\\"
                os.startfile(Y_folder_dir)
-               speak("Y drive opened")
+               speak("Y Drive opened")
 
-          elif "open Z drive" in query:
+          elif "Open Z Drive" in query:
                Z_folder_dir = "Z:\\"
                os.startfile(Z_folder_dir)
-               speak("Z drive opened")
-
+               speak("Z Drive opened")
+# -->
           elif "shutdown pc" in query:
                speak("Do you want to shutdown your PC?")
                choice = "Do you want to shutdown your PC(Yes/No)?"
@@ -466,7 +522,12 @@ if __name__ == "__main__":
                
           # elif "" in query:
                
-          # elif "" in query:
+          elif "open Directory" in query:
+               what_directory = input("Enter the directory which you want to open:\n")
+               os.startfile(what_directory)
+          elif "open directory" in query:
+               what_directory = input("Enter the directory which you want to open:\n")
+               os.startfile(what_directory)
 
           elif "sleep" in query:
                speak("Thankyou, for using me. Bye. We will meet next time!")
